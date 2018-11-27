@@ -41,4 +41,4 @@ Visual Studio 2015 or later must be installed.
 
 
 
-5.Run console application
+5.Build and run the console application

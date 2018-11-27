@@ -50,6 +50,8 @@ namespace PTS
 
                 completeTrip.selectedPacks.Add(new Package("LAX Airport", "Atlanta Airport", new DateTime(2019, 2, 25, 12, 0, 0), new DateTime(2019, 1, 20, 15, 0, 0), Package.TransportType.PrivateJet));
                 completeTrip.Payer = completeTrip.selectedTravellers[0];
+                completeTrip.totalPrice = completeTrip.selectedPacks[0].price;
+
                 completeTrip.Payment = new PaymentCash(completeTrip.totalPrice);
                 completeTrip.ThankYou = "Thanks Bojack, you're the greatest";
                 TripContext context2 = new TripContext(completeTrip);

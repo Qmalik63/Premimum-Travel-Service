@@ -37,4 +37,8 @@ Visual Studio 2015 or later must be installed.
 
 
 
-4.Finally open the "PTS.csproj" File
+4.Open the "PTS.csproj" File
+
+
+
+5.Run console application
